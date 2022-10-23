@@ -411,15 +411,18 @@ h4 {
         display: block;
     }
     /* Change color of dropdown links on hover */
-    .dropdown-content-mobile a:hover .dropdown-content-mobile a:active {
+    .dropdown-content-mobile a:hover,
+    .dropdown-content-mobile a:active {
         background-color: #ddd;
     }
     /* Show the dropdown menu on hover .dropdown-content-mobile a:active  */
-    .dropdown-mobile:hover .dropdown-content-mobile a:active .dropdown-content-mobile {
+    .dropdown-mobile:hover,
+    .dropdown-content-mobile a:active .dropdown-content-mobile {
         display: block;
     }
     /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown-mobile:hover .dropdown-content-mobile a:active .dropbtn-mobile {
+    .dropdown-mobile:hover,
+    .dropdown-content-mobile a:active .dropbtn-mobile {
         background-color: #0b2539;
         color: white;
     }
