@@ -104,12 +104,14 @@ h4 {
     transition: 0.6s;
 }
 
-.dropdown:hover .dropbtn-title {
+.dropdown:hover .dropbtn-title,
+.dropdown:active .dropbtn-title {
     background-color: #ffffff;
     color: black;
 }
 
-.dropbtn-title:hover {
+.dropbtn-title:hover,
+.dropbtn-title:active {
     background-color: #ffffff;
     color: black;
 }
@@ -147,7 +149,8 @@ h4 {
 
 /* Change color of dropdown links on hover */
 
-.dropdown-content a:hover {
+.dropdown-content a:hover,
+.dropdown-content a:active {
     background-color: #ddd;
     color: rgb(11, 37, 57);
 }
@@ -191,7 +194,8 @@ h4 {
 
 /* Change color of kurumdropdown links on hover */
 
-.kurumdropdown-content a:hover {
+.kurumdropdown-content a:hover,
+.kurumdropdown-content a:active {
     background-color: #ddd;
     color: black;
 }
@@ -199,7 +203,8 @@ h4 {
 
 /* Show the kurumdropdown menu on hover */
 
-.kurumdropdown:hover .kurumdropdown-content {
+.kurumdropdown:hover .kurumdropdown-content,
+.kurumdropdown:active .kurumdropdown-content {
     display: block;
     color: black;
 }
@@ -207,12 +212,14 @@ h4 {
 
 /* Change the background color of the kurumdropdown button when the kurumdropdown content is shown */
 
-.kurumdropdown:hover .dropbtn {
+.kurumdropdown:hover .dropbtn,
+.kurumdropdown:active .dropbtn {
     background-color: white;
     color: black;
 }
 
-.dropbtn:hover {
+.dropbtn:hover,
+.dropbtn:active {
     background-color: white;
     color: black;
 }
@@ -376,7 +383,8 @@ h4 {
         -moz-box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
         z-index: 1;
     }
-    .dropbtn:hover .faaliyetdropdown-content {
+    .dropbtn:hover .faaliyetdropdown-content,
+    .dropbtn:active .faaliyetdropdown-content {
         display: block;
         top: 0%;
         left: 0%;
