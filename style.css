@@ -320,7 +320,7 @@ h4 {
     z-index: 2000;
   }
   .logo img {
-    width: 5.5vh;
+    width: 8vh;
   }
   .front-page {
     min-height: 100vh;
@@ -427,15 +427,5 @@ h4 {
   .dropdown-mobile:hover .dropbtn-mobile {
     background-color: #0b2539;
     color: white;
-  }
-  footer {
-    color: white;
-    display: grid;
-    place-items: center;
-    background-color: #ffffff;
-    height: 1.5vh;
-    left: 50%;
-    margin-top: 49.8vh;
-    /* Footer height */
   }
 }
