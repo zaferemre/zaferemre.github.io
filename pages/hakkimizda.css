@@ -333,6 +333,7 @@ h4 {
   .dropdown-content-mobile a:hover,
   .dropdown-content-mobile a:active {
     background-color: #ddd;
+    color: #0b2539;
   }
   /* Show the dropdown menu on hover , .dropdown-mobile a:active */
   .dropdown-mobile:hover .dropdown-content-mobile,
