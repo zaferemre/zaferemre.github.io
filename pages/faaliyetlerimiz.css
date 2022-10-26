@@ -157,55 +157,6 @@ h4 {
   color: black;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-
-.kurumdropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* kurumdropdown Content (Hidden by Default) */
-
-.kurumdropdown-content {
-  display: none;
-  position: absolute;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-/* Links inside the kurumdropdown */
-
-.kurumdropdown-content a {
-  color: white;
-  padding: 5vh 6vh;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of kurumdropdown links on hover */
-
-.kurumdropdown-content a:hover,
-.kurumdropdown-content a:active {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Show the kurumdropdown menu on hover */
-
-.kurumdropdown:hover .kurumdropdown-content,
-.kurumdropdown:active .kurumdropdown-content {
-  display: block;
-  color: black;
-}
-
-/* Change the background color of the kurumdropdown button when the kurumdropdown content is shown */
-
-.kurumdropdown:hover .dropbtn,
-.kurumdropdown:active .dropbtn {
-  background-color: white;
-  color: black;
-}
-
 .dropbtn:hover,
 .dropbtn:active {
   background-color: white;
