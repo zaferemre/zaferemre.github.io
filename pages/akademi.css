@@ -216,6 +216,9 @@ h4 {
   display: block;
   color: black;
 }
+.lang img {
+  max-width: 25%;
+}
 
 .dropbtn:hover {
   background-color: white;
@@ -300,13 +303,23 @@ h4 {
   }
   .logo {
     display: grid;
-    position: absolute;
+    position: fixed;
     top: 2vh;
     left: 10vh;
     z-index: 2000;
   }
   .logo img {
-    width: 8vh;
+    max-width: 50%;
+  }
+  .lang {
+    display: grid;
+    position: fixed;
+    top: 3.5vh;
+    right: 3.5vh;
+    z-index: 2000;
+  }
+  .lang img {
+    max-width: 50%;
   }
   .front-page {
     min-height: 100vh;
@@ -353,6 +366,14 @@ h4 {
 @media only screen and (max-device-width: 1000px) {
   .show-on-desktop {
     display: none;
+  }
+  .lang {
+    display: grid;
+    place-items: center;
+    margin-bottom: -1vh;
+  }
+  .lang img {
+    max-width: 25%;
   }
   .container {
     margin-left: -2vh;
@@ -420,6 +441,8 @@ h4 {
     padding: 16px;
     font-size: 16px;
     border: none;
+    display: grid;
+    place-items: center;
   }
   /* The container <div> - needed to position the dropdown content */
   .dropdown-mobile {

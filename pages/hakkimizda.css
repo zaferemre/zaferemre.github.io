@@ -89,6 +89,21 @@ h4 {
 .front-page .content ul h2 {
   color: #0f3959;
 }
+.front-page h6 {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  bottom: 2vh;
+  right: 2vh;
+  color: white;
+  background-color: #0b2539;
+  padding: 1vh;
+
+  z-index: 3000;
+}
+.material-symbols-outlined {
+  color: white;
+}
 
 .tab {
   margin-left: 30px;
@@ -173,13 +188,23 @@ h4 {
   }
   .logo {
     display: grid;
-    position: absolute;
+    position: fixed;
     top: 2vh;
     left: 10vh;
     z-index: 2000;
   }
   .logo img {
-    width: 8vh;
+    max-width: 50%;
+  }
+  .lang {
+    display: grid;
+    position: fixed;
+    top: 3.5vh;
+    right: 3.5vh;
+    z-index: 2000;
+  }
+  .lang img {
+    max-width: 50%;
   }
   section {
     scroll-snap-align: start;
@@ -235,6 +260,14 @@ h4 {
   .logo img {
     width: 7vh;
   }
+  .lang {
+    display: grid;
+    place-items: center;
+    margin-bottom: -1vh;
+  }
+  .lang img {
+    max-width: 25%;
+  }
   .container {
     scroll-snap-type: y mandatory;
     height: 100vh;
@@ -272,6 +305,8 @@ h4 {
     padding: 16px;
     font-size: 16px;
     border: none;
+    display: grid;
+    place-items: center;
   }
   /* The container <div> - needed to position the dropdown content */
   .dropdown-mobile {
