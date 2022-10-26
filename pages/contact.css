@@ -500,6 +500,7 @@ header ul li a {
   /* Change color of dropdown links on hover */
   .dropdown-content-mobile a:hover {
     background-color: #ddd;
+    color: #0b2539;
   }
 
   /* Show the dropdown menu on hover */
