@@ -22,7 +22,6 @@ body {
 }
 
 section {
-    padding: 5%;
     height: 100%;
 }
 
@@ -49,8 +48,7 @@ h4 {
 }
 
 .selling-point {
-    margin-top: 5%;
-    margin-left: 4%;
+    display: relative;
     text-align: left;
 }
 
@@ -83,17 +81,6 @@ h4 {
 
 
 /* Dropdown Button */
-
-.dropbtn {
-    display: block;
-    padding: 1.5% 2vh;
-    font-size: 1rem;
-    border: none;
-    text-decoration: none;
-    background: none;
-    color: white;
-    transition: 0.6s;
-}
 
 .dropbtn-title:hover,
 .dropbtn-title:active {
@@ -210,12 +197,24 @@ h4 {
     .front-page {
         min-height: 100vh;
         max-width: 100vh;
+        margin-left: 2vh;
         color: white;
+    }
+    .dropbtn {
+        display: block;
+        padding: 1.5% 2vh;
+        font-size: 1rem;
+        border: none;
+        text-decoration: none;
+        background: none;
+        color: white;
+        transition: 0.6s;
     }
     .dropdown-content {
         display: block;
         position: absolute;
         min-width: 65vh;
+        margin-left: 10vh;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         background: rgba(11, 37, 57, 0.6);
         box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
@@ -250,6 +249,8 @@ h4 {
         padding: 2% 6vh;
         font-size: 1rem;
         border: none;
+        margin-top: 15%;
+        margin-left: 10vh;
         text-decoration: none;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         background: rgba(11, 37, 57, 0.8);
@@ -268,6 +269,17 @@ h4 {
 @media only screen and (max-device-width: 1000px) {
     .show-on-desktop {
         display: none;
+    }
+    .dropbtn {
+        display: block;
+        padding: 1.5% 2vh;
+        font-size: 1rem;
+        border: none;
+        text-decoration: none;
+        background: no-2ne;
+        color: white;
+        transition: 0.6s;
+        cursor: pointer;
     }
     header {
         position: absolute;
@@ -295,14 +307,14 @@ h4 {
         max-width: 25%;
     }
     .front-page {
-        margin-top: 15%;
-        margin-left: -2vh;
+        margin-top: 7vh;
         min-height: 100vh;
         max-width: 100vh;
         color: white;
     }
     .dropdown-content {
         position: absolute;
+        margin-left: 2vh;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         width: 92%;
         background: rgba(11, 37, 57, 0.6);
@@ -328,7 +340,6 @@ h4 {
     .dropbtn:hover .faaliyetdropdown-content,
     .dropbtn:active .faaliyetdropdown-content {
         display: block;
-        top: 0%;
         left: 0%;
         width: 100%;
     }
@@ -381,12 +392,14 @@ h4 {
     }
     .dropbtn-title {
         display: block;
-        padding: 3% 6vh;
+        padding: 4% 6vh;
         font-size: 1rem;
+        margin-left: 2vh;
+        margin-top: 15vh;
         border: none;
         text-decoration: none;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        background: rgba(11, 37, 57, 0.8);
+        background: rgba(11, 37, 57, 0.9);
         box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
         -webkit-box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
         -moz-box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
