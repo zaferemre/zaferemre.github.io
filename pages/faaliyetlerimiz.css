@@ -204,9 +204,11 @@ h4 {
         display: block;
         padding: 1.5% 2vh;
         font-size: 1rem;
+        width: 100%;
         border: none;
         text-decoration: none;
         background: none;
+        text-align: left;
         color: white;
         transition: 0.6s;
     }
@@ -244,6 +246,13 @@ h4 {
         width: 170%;
         height: 100%;
     }
+    .dropbtn:hover .faaliyetdropdown-content {
+        display: block;
+        top: 0%;
+        left: 0%;
+        width: 170%;
+        height: 100%;
+    }
     .dropbtn-title {
         display: block;
         padding: 2% 6vh;
@@ -272,9 +281,10 @@ h4 {
     }
     .dropbtn {
         display: block;
-        padding: 1.5% 2vh;
+        padding: 1vh 2vh;
         font-size: 1rem;
         border: none;
+        width: 100%;
         text-decoration: none;
         background: none;
         color: white;
@@ -400,12 +410,16 @@ h4 {
         border: none;
         text-decoration: none;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        background: rgba(11, 37, 57, 0.9);
+        background: #0b2539;
         box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
         -webkit-box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
         -moz-box-shadow: 0px 0px 57px 15px rgba(35, 35, 35, 0.35);
         z-index: 1;
         color: white;
         transition: 0.6s;
+    }
+    .dropbtn:active .dropbtn-title {
+        background: white;
+        color: black;
     }
 }
