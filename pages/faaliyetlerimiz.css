@@ -341,6 +341,7 @@ h4 {
     .dropbtn:active .faaliyetdropdown-content {
         display: block;
         left: 0%;
+        top: 0%;
         width: 100%;
     }
     .dropbtn-mobile {
