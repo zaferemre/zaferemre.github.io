@@ -118,7 +118,7 @@ h4 {
 }
 
 .faaliyetdropdown-content ul {
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   font-weight: 350;
   color: #e2e2e2;
 }
@@ -128,13 +128,13 @@ h4 {
 }
 
 .faaliyetdropdown-content ul h4 {
-  font-size: 1.15rem;
+  font-size: 0.8rem;
   line-height: 125%;
   color: #ffffff;
 }
 
 .faaliyetdropdown-content h5 {
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   font-weight: 500;
   margin-bottom: 1vh;
 }
@@ -153,6 +153,7 @@ h4 {
     z-index: 2000;
   }
   header ul {
+    font-size: 1rem;
     position: relative;
     display: flex;
     justify-content: center;
@@ -190,7 +191,6 @@ h4 {
     z-index: 2000;
   }
   .front-page {
-    min-height: 100vh;
     max-width: 100vh;
     margin-left: 2vh;
     color: white;
@@ -198,7 +198,7 @@ h4 {
   .dropbtn {
     display: block;
     padding: 1.5% 2vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 100%;
     border: none;
     text-decoration: none;
@@ -210,7 +210,7 @@ h4 {
   .dropdown-content {
     display: block;
     position: absolute;
-    min-width: 65vh;
+    min-width: 30vw;
     margin-left: 10vh;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background: rgba(11, 37, 57, 0.6);
@@ -238,20 +238,14 @@ h4 {
     display: block;
     top: 0%;
     left: 0%;
-    width: 170%;
+    width: 50vw;
     height: 100%;
   }
-  .dropbtn:hover .faaliyetdropdown-content {
-    display: block;
-    top: 0%;
-    left: 0%;
-    width: 170%;
-    height: 100%;
-  }
+
   .dropbtn-title {
     display: block;
     padding: 2% 6vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border: none;
     margin-top: 15%;
     margin-left: 10vh;
