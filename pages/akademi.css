@@ -282,6 +282,19 @@ h4 {
     color: white;
     transition: 0.6s;
   }
+  .faaliyetdropdown-content ul li {
+    font-size: 0.8rem;
+    margin-left: 2vh;
+  }
+
+  .faaliyetdropdown-content .basel ul {
+    font-size: 0.8rem;
+  }
+
+  .faaliyetdropdown-content .basel ul li {
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
 }
 
 /* Mobile */
@@ -424,5 +437,18 @@ h4 {
   .dropbtn:active .dropbtn-title {
     background: white;
     color: black;
+  }
+  .faaliyetdropdown-content ul li {
+    font-size: 0.95rem;
+    margin-left: 2vh;
+  }
+
+  .faaliyetdropdown-content .basel ul {
+    font-size: 0.95rem;
+  }
+
+  .faaliyetdropdown-content .basel ul li {
+    font-size: 0.95rem;
+    font-weight: 200;
   }
 }
