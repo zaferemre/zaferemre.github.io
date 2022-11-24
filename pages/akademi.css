@@ -132,7 +132,7 @@ h4 {
 }
 
 .faaliyetdropdown-content ul li {
-    font-size: 0.8rem;
+    font-size: 16px;
     margin-left: 2vh;
 }
 
@@ -266,7 +266,7 @@ h4 {
         top: 0%;
         left: 0%;
         width: 55vw;
-        height: 220%;
+        height: 250%;
     }
     .dropbtn-title {
         display: block;
