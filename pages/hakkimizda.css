@@ -264,6 +264,9 @@ h4 {
     .front-page {
         display: grid;
     }
+    .front-page .content {
+        margin-top: 10vh;
+    }
     .front-page .content ul {
         width: 90%;
         height: 100%;
